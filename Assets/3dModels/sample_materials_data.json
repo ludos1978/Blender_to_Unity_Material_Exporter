@@ -1,0 +1,41 @@
+{
+    "materials": [
+        {
+            "materialName": "diffused-material",
+            "textureInfos": [
+                {
+                    "image_name": "textures/barrel (1011090872).png",
+                    "channel": "COLOR",
+                    "comment": "| output.name: Color, node.name: Image Texture, link.from_socket.name:  Color, link.to_socket.name: Base Color, link.from_node.name: Image Texture, link.to_node.name: Principled BSDF |"
+                },
+                {
+                    "image_name": "textures/barrel (1011090872)-nrm.png",
+                    "channel": "NORMAL",
+                    "comment": "| output.name: Color, node.name: Image Texture.001, link.from_socket.name:  Color, link.to_socket.name: Color, link.from_node.name: Image Texture.001, link.to_node.name: Normal Map |"
+                },
+                {
+                    "image_name": "textures/barrel (1011090872)-metal.png",
+                    "channel": "METALNESS",
+                    "comment": "| output.name: Alpha, node.name: Image Texture.002, link.from_socket.name:  Alpha, link.to_socket.name: Metallic, link.from_node.name: Image Texture.002, link.to_node.name: Principled BSDF |"
+                }
+            ],
+            "roughness": 0.7460317015647888
+        },
+        {
+            "materialName": "diffused-material.005",
+            "textureInfos": [
+                {
+                    "image_name": "textures/wooden box (2953130575).png",
+                    "channel": "COLOR",
+                    "comment": "| output.name: Color, node.name: Image Texture, link.from_socket.name:  Color, link.to_socket.name: Base Color, link.from_node.name: Image Texture, link.to_node.name: Principled BSDF |"
+                },
+                {
+                    "image_name": "textures/wooden box (2953130575)-nrm.png",
+                    "channel": "NORMAL",
+                    "comment": "| output.name: Color, node.name: Image Texture.001, link.from_socket.name:  Color, link.to_socket.name: Color, link.from_node.name: Image Texture.001, link.to_node.name: Normal Map |"
+                }
+            ],
+            "roughness": 0.5
+        }
+    ]
+}
