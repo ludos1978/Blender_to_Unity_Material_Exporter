@@ -1,0 +1,16 @@
+Vorgehen:
+Lege das Blender Modell (in einem Verzeichnis) im Assets Folder rein.
+Öffne das Modell mit Blender
+im Blender Dropdown Menu:
+- blender > File > External Data > Unpack Resources > Write files to current Directory (overwrite existing files) # Das müsste ein Verzeichnis mit Texturen neben dem Grotto.blend erstellen.
+- blender > File > Save (das Blender file müsste dann nur noch 500mb sein)
+
+
+Installiere den Inhalt des Zips im Unity Projekt (die Files müssen unter Assets innerhalb des Editor Verzeichnisses sein)
+- Allenfalls musst du den Pfad im "MaterialTextureUpdaterEditor.cs" auf Zeile 226 Anpassen, ich habe es nur unter OSX getestet.
+- Im Unity Dropbodwn Menu "Tools" müsstest du den "Material Texture Updater" finden.
+- Das Modell Drag & Drop reinziehen
+	- Export JSON from Blender (dann müsste nach einigen Sekunden ein Grotto_materials_data file erscheinen im Assets Folder)
+	- Create Materials from JSON (das müsste ein Verzeichniss mit Materialien neben dem Grotto File erstellen)
+	- Apply Material Remap (müsste die meisten Materialien im Grotto korrigieren)
+Da das Blender File sehr gross ist kann es ziemlich lange dauern bis die Funktion ausgeführt werden.
